@@ -67,3 +67,10 @@ You will see outputs representing the URLs to access your GKE cluster in the Goo
 You can also validate that the cluster was created in the Google Console.
 
 ![Google Console](screenshot1.png)
+
+## Destroy or clean up 
+
+```sh
+# Take down the cluster
+terraform destroy -var-file config/cluster.tfvars
+```
