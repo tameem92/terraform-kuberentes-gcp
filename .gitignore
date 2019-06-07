@@ -16,3 +16,4 @@ override.tf.json
 
 # Crash log files
 crash.log
+.DS_Store
