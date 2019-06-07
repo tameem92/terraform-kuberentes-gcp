@@ -38,7 +38,7 @@ resource "google_container_cluster" "primary" {
 
 resource "google_container_node_pool" "primary_preemptible_nodes" {
   name       = "node-pool-primary"
-  location   = "us-central1"
+  location = "${var.gcp_zone}"
   
   cluster    = "${google_container_cluster.primary.name}"
   node_count = "${var.initial_node_count}"

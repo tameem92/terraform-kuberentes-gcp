@@ -1,3 +1,4 @@
+
 gcp_region = "us-central-1" 
 gcp_zone = "us-central1-a"
 gcp_project = "ruksack-platform"
